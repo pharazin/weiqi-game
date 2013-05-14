@@ -1,1 +1,6 @@
-An old project. Go game in Javascript, using Rx.js and other stuff. see it live at https://s3-us-west-1.amazonaws.com/weiqigame/go.html
+An old project. Go game in Javascript, using Rx.js and other stuff. 
+
+see it live at https://s3-us-west-1.amazonaws.com/weiqigame/go.html
+
+to start a game, click on the "New Game" button in upper right. A new game will appear below it, which is clickable, usability cues be damned. You can also have multiple games going simultaneously
+
