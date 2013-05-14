@@ -1,0 +1,88 @@
+body{
+    background:#4682b4;
+}
+
+div.boardContainer{
+    float: left;
+}
+
+div.boardHeaders{
+    padding: 2px;
+    margin: 2px;
+    background: #76ACDA;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+div.listContainer{
+    float: right;
+    padding: 5px;
+    background:#76ACDA;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+div.listContainer .gameListItem {
+}
+
+div.listContainer .gameListItem:hover {
+    color: aqua;
+}
+
+div.listContainer .gameListItem.activeListItem {
+    color: blue;
+}
+div.board{
+    /*float: left;*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+div circle{
+    fill: none;
+    stroke: none;
+}
+
+div.isBlack.blackTurn circle:hover {
+    fill: black;
+    opacity: .5;
+}
+div.isWhite.whiteTurn circle:hover {
+    fill: white;
+    opacity: .7;
+}
+div.isBlack circle.ko:hover {
+    fill: red;
+    opacity: .3;
+}
+div.isWhite circle.ko:hover {
+    fill: red;
+    opacity: .3;
+}   
+div circle.blackStone{
+    fill: black;
+}
+
+div.isBlack.blackTurn circle.blackStone:hover {
+    fill: black;
+    opacity: 1;
+}
+div.isWhite.whiteTurn circle.blackStone:hover {
+    fill: black;
+    opacity: 1;
+}
+div circle.whiteStone {
+    fill: white;
+    stroke: black;
+}
+div.isBlack.blackTurn circle.whiteStone:hover {
+    fill: white;
+    opacity: 1;
+}
+div.isWhite.whiteTurn circle.whiteStone:hover {
+    fill: white;
+    opacity: 1;
+}
+
+.marker{
+    fill: #000000;
+}
